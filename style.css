@@ -32,7 +32,7 @@ nav {
     display: flex;
     list-style-type: none;
     padding: 0;
-    //justify-content:space-between;
+    //justify-content:space-between;//
     
  }
  nav a{
@@ -44,13 +44,15 @@ nav {
  }
 
 .brief{
-         font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-         font-size-adjust: 30px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size-adjust: 30px;
      }
 .nyt{
     background-color: white;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 400px;
+    font-size: large;
+    
+    width: 428px;
     text-align: center;
     
     
