@@ -1,73 +1,136 @@
-
-    //* menu base styles *//
+ /* flex styles */
+ @media only screen and (max-width:425px){
+  
+ }
+   
 
 .wrapper{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     border-bottom: solid;
     border-bottom-color: #f7f7f7;
+    align-items: center;
+    height: 40px;
 
 }
-.box{
-    height: 30px;
-    min-width: 75px;
+.nav{
+    width:425px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size: smaller;
+}
+.date{
+    align-items:center;
     
-    }
-.box-one{
-display: flex;
-justify-content: center;
- align-items: center;
+}
+li{
+    display:inline;
+    list-style-type: none;
+}
+.sub{
+    text-align: right;
 }
 
-    .img{
-        align-items: center;
+.box-one{
+ display: flex;
+ height: 30px;
+ width: 36px;
+ padding-top: 20px;
+ text-align: center;
+ background-color: red;
+ margin: 20px;
+}
+
+i{
+ color: grey;
+ height: 30px;
+ width: 75px;
+ align-items:center;
+}
+
+img{
+    align-items: center;
+    padding-right: 110px;
+        
     }
 .box-three{
-display: flex;
-justify-content: center;
- align-items: center;
-    }
-    
-nav {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    //justify-content:space-between;//
-    
- }
- nav a{
-    text-decoration: none;
-   // text-align: center;
-    display: block;
-    padding: 10px; 
-    
- }
+ display: flex;
+ height: 30px;
+ width: 36px;
+ text-align: center;
+ padding-top: 20px;
+ 
 
-.brief{
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size-adjust: 30px;
-     }
-.nyt{
-    background-color: white;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: large;
+align-items:center;
+}
+ a {
+    text-decoration: none;
     
-    width: 428px;
-    text-align: center;
-    
-    
-}     
- /* flex styles */
- @media screen and (min-width:768x){
-     
-     
-     
-     
-     
-     
-     
-     
-     
  }
+ 
+.line{
+    padding-right: 5px;
+    border-right: solid;
+    border-right-color: grey;
+}
+.brief{
+    font-family: sans-serif;
+    font-size: 26px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+ }
+ .day{
+     margin-top: 1px;
+     font-size: 20px;
+     }
+
+.lat{
+    text-align: center;
+    width: 425px;
+}
+
+.nyt{
+    font-size: 20px;
+    font-weight: 800px;
+    font-family: sans-serif;
+}
+.audio{
+    width: 100%;
+    height: 11px;
+    border-top: solid;
+    border-top-color: grey;
+    border-bottom: solid;
+    border-bottom-color:grey;
+}
+.audio-1{
+    
+}
+.audio-2{
+ flex-direction:right
+ height: 10px;
+ width: 38px;
+ padding-top: 20px;
+ text-align: center;
+ background-color: red;
+ margin: 20px
+ 
+}
+.audio-3{
+    align-items:right;
+    justify-content:right;
+    margin-top: right;
+
+
+ {
+   font-size: 10px;
+   margin:8px;
+   
+}
+
+
+    
+
+
 
     
