@@ -5,75 +5,82 @@
    
 
 .wrapper{
-    display: flex;
-    justify-content:space-around;
+    display:flex;
+    justify-content:space-between;
     border-bottom: solid;
     border-bottom-color: #f7f7f7;
     align-items: center;
-    height: 40px;
-
+    height: 45px;
+    padding: 10px;
+    width: auto;
 }
 .nav{
-    width:425px;
+    width:100%;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    font-size: smaller;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
 .date{
     align-items:center;
-    
+ 
 }
 li{
     display:inline;
     list-style-type: none;
+    
 }
 .sub{
     text-align: right;
+    font-size: 12px;
+    font-family: segoe ui;
+    weight:400;
+    font-color:grey;
 }
 
 .box-one{
- display: flex;
- height: 30px;
+ height: 35px;
  width: 36px;
- padding-top: 20px;
+ padding:5px;
  text-align: center;
- background-color: red;
- margin: 20px;
+ background-color: #efecec;
+ border: 1px solid lightgrey;
 }
 
 i{
  color: grey;
  height: 30px;
- width: 75px;
+ width: 45px;
  align-items:center;
 }
+#img1{
+    height: 50px;
+    width: 100;
+}
 
-img{
-    align-items: center;
-    padding-right: 110px;
-        
-    }
+
 .box-three{
- display: flex;
- height: 30px;
+ height: 35px;
  width: 36px;
  text-align: center;
- padding-top: 20px;
+ padding-left: 5px;
+ border: 1px solid lightgrey;
+ background-color: #efecec;
  
 
 align-items:center;
 }
  a {
     text-decoration: none;
-    
- }
+     padding-right: 20px;
+     border-right: solid;
+     text-align: right;
+     
+  }
  
-.line{
-    padding-right: 5px;
-    border-right: solid;
-    border-right-color: grey;
-}
 .brief{
     font-family: sans-serif;
     font-size: 26px;
@@ -83,32 +90,48 @@ align-items:center;
  .day{
      margin-top: 1px;
      font-size: 20px;
-     }
-
+    }
+.nav1{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
 .lat{
     text-align: center;
-    width: 425px;
+
 }
 
 .nyt{
     font-size: 20px;
-    font-weight: 800px;
+    font-weight: 400px;
     font-family: sans-serif;
 }
 .audio{
     width: 100%;
     height: 11px;
     border-top: solid;
-    border-top-color: grey;
+    border-top-color: lightgrey;
     border-bottom: solid;
-    border-bottom-color:grey;
+    border-bottom-color:lightgrey;
+    background-color: #efecec;;
 }
-.audio-1{
+.bill{
+    font:grey;
     
 }
+.audio-1{
+    display: flex;
+    text-align-last: center
+  
+}
 .audio-2{
- flex-direction:right
- height: 10px;
+ flex-direction:left;
+ height: 100px;
  width: 38px;
  padding-top: 20px;
  text-align: center;
@@ -117,16 +140,14 @@ align-items:center;
  
 }
 .audio-3{
-    align-items:right;
+    flex-direction:right;
+    align-items:center;
     justify-content:right;
     margin-top: right;
-
-
- {
-   font-size: 10px;
-   margin:8px;
-   
 }
+  
+   
+
 
 
     
